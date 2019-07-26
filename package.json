@@ -1,6 +1,6 @@
 {
   "name": "@narando/export-gitea-org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Export all PRs/Issues in a Gitea Organisation to Markdown files",
   "main": "bin.js",
   "bin": {
