@@ -16,4 +16,7 @@ async function exportGiteaOrg() {
   await writeMarkdownFiles(rawData);
 }
 
-exportGiteaOrg().catch(console.error);
+exportGiteaOrg().catch(err => {
+  console.error("Error during export", err);
+  process.exitCode = 1;
+});
