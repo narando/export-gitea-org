@@ -1,0 +1,25 @@
+{
+  "name": "@narando/export-gitea-org",
+  "version": "1.0.0",
+  "description": "Export all PRs/Issues in a Gitea Organisation to Markdown files",
+  "main": "bin.js",
+  "bin": {
+    "export-gitea-org": "./bin.js"
+  },
+  "files": [
+    "**/*.js",
+    "**/*.md.tpl"
+  ],
+  "author": "Julian Tölle <julian@narando.de>",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^3.0.1",
+    "node-fetch": "^2.6.0",
+    "swagger-client": "^3.9.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narando/export-gitea-org"
+  }
+}
